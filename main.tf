@@ -1,5 +1,5 @@
-resource "digitalocean_kubernetes_cluster" "benjamionlo-k8s-cluster" {
-  name   = "benjamionlo-k8s-cluster"
+resource "digitalocean_kubernetes_cluster" "k8s-django-nginx-uWSGI-preview-cluster" {
+  name   = "k8s-django-nginx-uWSGI-preview-cluster"
   region = "nyc1"
   # Grab the latest version slug from `doctl kubernetes options versions`
   version = "1.20.2-do.0"
